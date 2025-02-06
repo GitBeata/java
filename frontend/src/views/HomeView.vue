@@ -26,7 +26,7 @@ export default {
     },
     methods: {
         fetchContents() {
-            axios.get('http://135.224.16.69:8080/api/content')
+            axios.get('http://13.93.205.222:8080/api/content')
             .then(respone => {
                 this.contents = respone.data;
             })
